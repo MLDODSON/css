@@ -75,14 +75,28 @@ html, body{
 	width: 200px;
 	top:  100px;
 	opacity: 0.5;
-	animation: wind 80s linear infinite normal;
+	animation: wind 70s linear infinite normal;
 }
 
 .cloud:nth-child(2){
 	width: 300px;
 	top:  0px;
 	opacity: 0.5;
-	animation: wind 50s linear infinite reverse; 
+	animation: wind 40s linear infinite reverse; 
+}
+
+.cloud:nth-child(3){
+	width: 9%;
+	top:  40px;
+	opacity: 0.8;
+	animation: wind 20s linear infinite normal; 
+}
+
+.cloud:nth-child(4){
+	width: 12%;
+	top:  60px;
+	opacity: 0.5;
+	animation: wind 28s linear infinite reverse; 
 }
 
 
