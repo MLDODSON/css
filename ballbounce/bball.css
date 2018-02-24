@@ -1,0 +1,69 @@
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.ball {
+  top: 40px;
+  animation: bounce 1s infinite linear;
+}
+
+.shadow {
+	position: absolute;
+	top: 230px;
+	left: 0;
+	width: 260px;
+	height: 25px;
+	background: #262626;
+	border-radius: 50%;
+	opacity: .8;
+	animation: shadow 1s infinite linear;
+}
+
+
+@keyframes bounce
+{
+0%
+	{
+		transform: translateY(0);
+	}
+	50%
+	{
+		transform: translateY(-200px);
+	}
+	100%
+	{
+		transform: translateY(0);
+	}
+}
+
+@keyframes shadow
+{
+	0%
+	{
+		transform: scale(1);
+		opacity: .5;
+	}
+	50%
+	{
+		transform: scale(.4);
+		opacity: .3;
+	}
+	100%
+	{
+		transform: scale(1);
+		opacity: .5;
+	}
+}
+
+
