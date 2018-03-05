@@ -1,0 +1,47 @@
+.navbar-inverse{
+	background: #50057f;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.menu:hover {
+  background-color: #7003a3;
+}
+
+.btn-danger {
+	color: #3c03b7;
+	background: #ffc300;
+	border: none;
+}
+
+.btn-danger:hover {
+	background-color: #7003a3;
+	border: none;
+}
+
+.envelope:hover {
+	color: #ffc300; 
+}
+
+.fa-sign-in-alt:hover {
+	color: #ffc300; 
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+
+.navbar {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+}
